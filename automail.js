@@ -69,6 +69,7 @@ const sendEmail = async (email, HRName, companyName) => {
     from: process.env.AppEmail,
     to: email,
     subject: subject,
+    gcc: process.env.AppEmail,
     html: HTML,
     attachments: attachments,
   };
